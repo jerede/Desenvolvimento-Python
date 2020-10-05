@@ -1,2 +1,2 @@
 # Desenvolvimento-Python
-material de estudo pratico de p
+material de estudo pratico de Python
