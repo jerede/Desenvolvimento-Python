@@ -24,14 +24,14 @@ elif(operacao == '*'):
 elif(operacao == '/'):
     resultado = a / b
 else:
-    printe('Operação escolhida não existe!!!')
+    print('Operação escolhida não existe!!!')
 
 #4º passo: definir se o resultado é par ou impar, positivo ou negativo
 strpositivo = 'Negativo'
 if(resultado >= 0): strpositivo = 'Positivo'
 
 strPar = 'Impar'
-if((resultado%2)==0): strPar = 'Par'
+if((resultado % 2)==0): strPar = 'Par'
 
 #5º passo: escrevero resultado na tela
 print('O resultado da operfação foi ' + str(resultado) + ', que é ' + strpositivo + ' e ' + strPar)
